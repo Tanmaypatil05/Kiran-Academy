@@ -1,0 +1,16 @@
+package Loop.OCT_thirty;
+
+import java.util.Scanner;
+
+public class print_num {
+    public static void main(String[] args){
+        Scanner T = new Scanner(System.in);
+        System.out.println("Enter the term:- ");
+        int n = T.nextInt();
+
+        for(int i=1;i<=n;i++){
+            System.out.print(i+" ");
+        }
+
+    }
+}
